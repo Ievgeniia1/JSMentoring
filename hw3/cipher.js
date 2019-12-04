@@ -12,7 +12,7 @@ let alphabet= "abcdefghijklmnopqrstuvwxyz";
 
 for (let i=0;i<text.length;i++){
 	if(text.charAt(i)!==" "){
-		const currentAlphabetPosition = alphabet.indexOf(text.toLowerCase().charAt(i));
+		let currentAlphabetPosition = alphabet.indexOf(text.toLowerCase().charAt(i));
 		let cipheredAlphabetPosition = currentAlphabetPosition+step;
 
 
