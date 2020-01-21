@@ -2,6 +2,6 @@
  
 let minutesInLife = function(age){
     return age*60*24*365;
- }
+ };
   
  console.log(minutesInLife(28));

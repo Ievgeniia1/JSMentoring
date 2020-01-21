@@ -5,13 +5,8 @@
 У іншому випадку перегляд недозволений. Використовуйте логічні оператори, поверніть як результат true або false​*/
  
 let cinemaPass = function(age, isAdultHere) {
-    if ((age >= 13) || (isAdultHere)) {
-        isAllowed = true;
-    } else {
-        isAllowed = false;
-  
-    }
-    return isAllowed;
+    return ((age >= 13) || (isAdultHere))
+
  };
  console.log(cinemaPass(15, false)); //true expected
  console.log(cinemaPass(2, true)); //true expected
